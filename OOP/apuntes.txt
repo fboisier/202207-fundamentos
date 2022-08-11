@@ -1,0 +1,9 @@
+
+class <<Nombre>>:
+    def __init__(self):
+        self.<<primer_atributo>> = <<valor por defecto>>
+
+    def <<nombre_de_lo_que_hace>>(self):
+        # codigo. donde puedes ocupar los atributos de la clase con self.
+
+instacia_objeto = <<Nombre>>()

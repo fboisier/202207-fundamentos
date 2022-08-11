@@ -27,3 +27,12 @@ var objeto = {
 
 console.log(objeto);
 console.log(objeto.edad);
+
+
+function saludar(nombre) {
+    console.log("HOLA" + nombre);
+    return "HOLA -----" + nombre;
+}
+
+var resultado = saludar("FRANCISCO")
+console.log(resultado);
