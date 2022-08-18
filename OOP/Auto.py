@@ -29,7 +29,7 @@ class Auto:
         return str(kilometros).isdigit()
 
 
-ojAuto1 = Auto("Suzuki", 'Gris', 2019, "Baleno")
+ojAuto1 = Auto(modelo="Baleno", marca="Suzuki", color='Gris', año=2019)
 print(ojAuto1.nombreClase())
 
 print(ojAuto1.__dict__)
@@ -42,3 +42,4 @@ print(ojAuto1.validaKilometro("199"))
 print(Auto.nombreClase())
 
 print(ojAuto1.motor.año)
+
